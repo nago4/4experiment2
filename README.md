@@ -61,13 +61,13 @@ python .\実験課題\viwer.py
 ```
 
 3. 小さい Tk ウィンドウ（ランチャ）が開きます。「DICOMフォルダを開く」をクリックして、DICOM 画像群（連続したスライスファイル）を格納したフォルダを選択してください。
-![01_launcher.png](01_launcher.png)
+![01_launcher.png](./images/01_launcher.png)
 ファイル選択後の全体画面
-![all_window.png](all_window.png)
+![all_window.png](./images/all_window.png)
 
 4. 読み込みが成功すると Matplotlib のウィンドウが開きます。左が Axial（横断面）、右が Coronal（初期）です。下部に WL/WW、Z/Y/X スライダがあります。
 また、coronalとsagittalの切替ボタンがスライダの横に置かれています。
-![sulaida_switch.png](sulaida_switch.png)
+![sulaida_switch.png](./images/sulaida_switch.png)
 
 ## GUI 操作マニュアル — 各部の説明と具体的な調整例
 
@@ -80,7 +80,7 @@ python .\実験課題\viwer.py
 - WW（Window Width）スライダ: コントラストの幅を調整します（小さくするとコントラスト高、広くすると低）。
 - Axial Slice (Z) スライダ: Axial 面のスライス番号を選択します（整数）。
 - Coronal (Y) スライダ: Coronal を表示するための Y インデックス（Coronal 表示時に有効）。Axial 上の緑色の横線が位置を示します。
-![colonal.png]([colonal.png])
+![colonal.png]([./images/colonal.png])
 - Sagittal (X) スライダ: Sagittal を表示するための X インデックス（Sagittal 表示時に有効）。Axial 上の黄色の縦線が位置を示します。
 ![sagittal.png](./images/sagittal.png)
 - 面切替ボタン: 右パネルを Coronal と Sagittal の間で切替えます。切替に応じて有効なスライダが変わります。
