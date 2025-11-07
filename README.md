@@ -80,7 +80,7 @@ python .\実験課題\viwer.py
 - WW（Window Width）スライダ: コントラストの幅を調整します（小さくするとコントラスト高、広くすると低）。
 - Axial Slice (Z) スライダ: Axial 面のスライス番号を選択します（整数）。
 - Coronal (Y) スライダ: Coronal を表示するための Y インデックス（Coronal 表示時に有効）。Axial 上の緑色の横線が位置を示します。
-![colonal.png]([./images/colonal.png])
+![colonal.png]([C:\Users\rs22095L\デスクトップ\4experiment2\images\colonal.png])
 - Sagittal (X) スライダ: Sagittal を表示するための X インデックス（Sagittal 表示時に有効）。Axial 上の黄色の縦線が位置を示します。
 ![sagittal.png](./images/sagittal.png)
 - 面切替ボタン: 右パネルを Coronal と Sagittal の間で切替えます。切替に応じて有効なスライダが変わります。
