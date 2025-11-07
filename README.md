@@ -82,7 +82,7 @@ python .\実験課題\viwer.py
 - Coronal (Y) スライダ: Coronal を表示するための Y インデックス（Coronal 表示時に有効）。Axial 上の緑色の横線が位置を示します。
 [colonal.png]
 - Sagittal (X) スライダ: Sagittal を表示するための X インデックス（Sagittal 表示時に有効）。Axial 上の黄色の縦線が位置を示します。
-[sagittal.png]
+![ランチャ](sagittal.png)
 - 面切替ボタン: 右パネルを Coronal と Sagittal の間で切替えます。切替に応じて有効なスライダが変わります。
 
 ### 参照線の見方
