@@ -10,9 +10,6 @@
 - 必要なもの（前提）
 - 環境構築（Windows / PowerShell 向け）
 - 実行方法
-- GUI 操作マニュアル（各スライダ／ボタンの詳しい説明と調整例）
-- スクリーンショット（どのような写真を撮って README に貼るかの指示）
-- トラブルシューティング
 
 ## 概要
 - `viwer.py` は、指定したフォルダ内の DICOM 画像系列を読み込み 3D ボリュームとして扱い、以下の表示を提供します:
@@ -48,24 +45,12 @@ python -m pip install pydicom numpy matplotlib --user
 注: `tkinter` は通常 Python に同梱されています。万が一 Tk が無いエラーが出たら、Python のインストールオプションに Tk サポートを追加するか、Windows 用の Python を再インストールしてください。
 
 ## 実行方法
-1. エクスプローラや PowerShell でリポジトリのルート（この README がある場所）に移動します。
-
-```powershell
-cd "C:\Users\<あなたのユーザ名>\デスクトップ\知能情報実験実習２後期"
-```
-
-2. スクリプトを起動します（ファイル名は `viwer.py` です）：
-
-```powershell
-python .\実験課題\viwer.py
-```
-
-3. 小さい Tk ウィンドウ（ランチャ）が開きます。「DICOMフォルダを開く」をクリックして、DICOM 画像群（連続したスライスファイル）を格納したフォルダを選択してください。2枚目の写真はフォルダ選択後の全体画面で、ここで操作を行っていきます。
+1. 小さい Tk ウィンドウ（ランチャ）が開きます。「DICOMフォルダを開く」をクリックして、DICOM 画像群（連続したスライスファイル）を格納したフォルダを選択してください。2枚目の写真はフォルダ選択後の全体画面で、ここで操作を行っていきます。
 ![01_launcher.png](./images/01_launcher.png)
 
 ![all_window.png](./images/all_window.png)
 
-4. 読み込みが成功すると Matplotlib のウィンドウが開きます。左が Axial（横断面）、右が Coronal（初期）です。下部に WL/WW、Z/Y/X スライダがあります。
+2. 読み込みが成功すると Matplotlib のウィンドウが開きます。左が Axial（横断面）、右が Coronal（初期）です。下部に WL/WW、Z/Y/X スライダがあります。
 また、coronalとsagittalの切替ボタンがスライダの横に置かれています。
 ![sulaida_switch.png](./images/sulaida_switch.png)
 
